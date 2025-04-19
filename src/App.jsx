@@ -1,13 +1,12 @@
-import Greet from "./componets/greet";
-
+import Header from "./components/Header";
+import MainComponent from "./components/MainComponent";
+import Footer from "./components/Footer";
 const App = ()=>{
   return (
     <div>
-      Hello World
-      <div>
-        
-      </div>
-      <Greet></Greet>
+      <Header></Header>
+      <MainComponent></MainComponent>
+      <Footer></Footer>
     </div>
   )
   
