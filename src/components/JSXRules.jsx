@@ -10,6 +10,7 @@ const JSXRules = () => {
             <li>JSX must have a single parent element.</li>
             <li>JSX elements must be properly closed.</li>
             <li>JSX elements can be nested inside each</li>
+            <li>JSX attributes are written in camelCase.</li>
             </ul>
     </div>
   )
